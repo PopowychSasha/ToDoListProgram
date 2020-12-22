@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Picture/add.png</file>
+        <file>Picture/LT.png</file>
+        <file>Picture/remove.png</file>
+        <file>Picture/return.png</file>
+        <file>Picture/s.png</file>
+        <file>Picture/ST.png</file>
+        <file>Picture/quickTask.png</file>
+        <file>Picture/list.png</file>
+        <file>Picture/ret.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

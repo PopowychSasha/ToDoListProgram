@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CleanerCompletedTasks</class>
+ <widget class="QWidget" name="CleanerCompletedTasks">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/rec/Picture/list.png</normaloff>:/rec/Picture/list.png</iconset>
+  </property>
+  <widget class="QListView" name="listViewForDoneTask">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>661</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:20px;
+font-weight:700;
+font-family: Georgia, serif;
+font-style: italic;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="clearList">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>375</y>
+     <width>661</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*display: inline-block;
+font-size:20px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+background-color:#b8b8b8;*/
+color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+font-weight:900;
+font-size:20px;</string>
+   </property>
+   <property name="text">
+    <string>Очистити список</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
